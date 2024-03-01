@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/styles.css">
+ 
+    
+</head>
+<body>
+    <header>
+        <h1>Movie Hub</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" spellcheck="false" placeholder="Search...">
+            <button id="searchBtn"><i class="fa fa-search"></i></button></button>
+        </div>
+    </header>
+
+    <div id="movieDetails" class="details-container">
+        <span id="closeBtn" class="close-icon">&times;</span>
+        <h2>Title</h2>
+        <p id="movieTitle"></p>
+        <h2>About</h2>
+        <p id="movieAbout"></p>
+    </div>
+
+    <div class="container" id="movieContainer"></div>
+ <footer>
+        <p>Copyright © 2023 Rohit Negi. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
