@@ -146,7 +146,7 @@ function displaySuggestions(suggestions) {
                 document.getElementById('searchInput').value = suggestions[i];
                 suggestionsBox.innerHTML = ''; // Clear suggestions
                 fetchRecommendations(suggestions[i]); // Fetch and display the recommendations
-            });
+            }); 
             suggestionsBox.appendChild(suggestionItem);
         }
     } else {
